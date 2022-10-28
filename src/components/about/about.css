@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Play:wght@700&family=Poppins&family=Roboto+Slab:wght@600&display=swap');
+
+
+@keyframes text-display {
+    0% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+
+    40% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 25px;
+    }
+}
+
+.heading_top-center {
+    display: flex;
+    justify-content: center;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+}
+
+.content_body-center {
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.table-container {
+    margin-top: 30px;
+    word-wrap: break-word;
+    display: flex;
+    border-bottom: 1px white;
+    border-top: 1px white;
+    animation-name: text-display;
+    animation-duration: 2.5s;
+}
+
+.table-container>.table-col-title {
+    font-weight: bold;
+}
+
+.table-container>.table-col-info {
+    margin-right: 40px;
+}
